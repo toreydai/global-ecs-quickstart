@@ -9,33 +9,33 @@
 
 建议先完成 **基础主线**，再按需要选择 **进阶专题**。正式主线控制在 10 篇；额外生产专题作为可选 Demo。
 
-### 基础主线
+## 基础主线
 
-#### 1. 基础资源、镜像与第一个服务
+### 1. 基础资源、镜像与第一个服务
 - [Demo01 — 准备实验环境与基础资源](docs/demo01-env-setup.md)
 - [Demo02 — ECR 镜像构建与发布](docs/demo02-ecr-images.md)
 - [Demo03 — 部署第一个 Fargate 服务](docs/demo03-fargate-service.md)
 - [Demo04 — 使用 ALB 暴露服务](docs/demo04-alb.md)
 
-#### 2. 发布、权限与弹性
+### 2. 发布、权限与弹性
 - [Demo05 — 滚动发布、回滚与故障排查](docs/demo05-rolling-deploy.md)
 - [Demo06 — 任务配置 Secrets 与 Task Role](docs/demo06-secrets-task-role.md)
 - [Demo07 — Service Auto Scaling](docs/demo07-auto-scaling.md)
 
-#### 3. 私有网络、可观测性与 CI/CD
+### 3. 私有网络、可观测性与 CI/CD
 - [Demo08 — 私有子网与 VPC Endpoint](docs/demo08-private-subnet-vpc-endpoint.md)
 - [Demo09 — CloudWatch 日志指标与 ECS Exec](docs/demo09-cloudwatch-ecs-exec.md)
 - [Demo10 — CodePipeline 自动部署 ECS](docs/demo10-codepipeline-cicd.md)
 
-### 进阶专题
+## 进阶专题
 
-#### 4. 存储与服务通信
+### 4. 存储与服务通信
 - [Demo11 — EFS 持久化存储](docs/demo11-efs-storage.md)
 - [Demo12 — Service Discovery 与 Service Connect](docs/demo12-service-discovery.md)
 
-### 可选生产专题
+## 可选生产专题
 
-#### 5. 发布治理与成本治理
+### 5. 发布治理与成本治理
 - [Demo13 — CodeDeploy 蓝绿发布（可选）](docs/demo13-codedeploy-blue-green.md)
 - [Demo14 — 成本治理与清理审计（可选）](docs/demo14-cost-audit.md)
 
